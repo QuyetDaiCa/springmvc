@@ -23,7 +23,6 @@ public class TrangChuController {
     @GetMapping()
     @Transactional
     public String getrTrangChu(){
-
         return "trangchu";
     }
 
